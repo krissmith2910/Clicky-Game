@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "image": "/images/ali.jpg"
+    },
+    {
+      "id": 2,
+      "image": "/images/brady.jpg"
+    },
+    {
+      "id": 3,
+      "image": "/images/farve.jpg"
+    },
+    {
+      "id": 4,
+      "image": "/images/jordan.jpg"
+    },
+    {
+      "id": 5,
+      "image": "/images/kobe.jpg"
+    },
+    {
+      "id": 6,
+      "image": "/images/lebron.jpg"
+    },
+    {
+      "id": 7,
+      "image": "/images/mayweather.jpg"
+    },
+    {
+      "id": 8,
+      "image": "/images/silva.jpg"
+    },
+    {
+      "id": 9,
+      "image": "/images/tyson.jpg"
+    },
+    {
+      "id": 10,
+      "image": "/images/watt.jpg"
+    }
+  ]
