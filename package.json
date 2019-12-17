@@ -16,7 +16,7 @@
     "yarn": "^1.21.1"
   },
   "engines": {
-    "node": ">=10.15.3"
+    "node": "10.15.3"
   },
   "scripts": {
     "start": "react-scripts start",
