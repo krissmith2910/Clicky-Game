@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from 'components/Header';
+import Header from './components/Header';
 import Wrapper from 'components/Wrapper';
 import Card from 'components/Card';
 import character from "./character.json";
