@@ -8,6 +8,7 @@ console.log("express")
 const port = process.env.PORT || 3000;
 console.log("express")
 const app = express();
+const router = express.Router()
 console.log("express")
 //app.use(favicon(__dirname + '/build/favicon.ico'));
 // the __dirname is the current directory from where the script is running
@@ -18,7 +19,7 @@ console.log("static2")
 // app.get('/ping', function (req, res) {
 //  return res.send('pong');
 // });
-app.get('/*', function (req, res) {
+router.use('/*', function (req, res) {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 console.log("route")
