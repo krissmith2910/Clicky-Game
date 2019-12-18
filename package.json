@@ -23,10 +23,8 @@
     "yarn": "^1.21.1"
   },
   "scripts": {
-    "build": "react-scripts build",
     "dev": "react-scripts start",
-    "start": "node server.js",
-    "heroku-postbuild": "npm run build"
+    "start": "npm run dev"
   },
   "eslintConfig": {
     "extends": "react-app"
