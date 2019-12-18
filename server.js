@@ -14,8 +14,8 @@ console.log("express")
 // the __dirname is the current directory from where the script is running
 app.use(express.static(__dirname));
 console.log("static1")
-app.use(express.static(path.join(__dirname, 'build')));
-console.log("static2")
+// app.use(express.static(path.join(__dirname, 'build')));
+// console.log("static2")
 // app.get('/ping', function (req, res) {
 //  return res.send('pong');
 // });
