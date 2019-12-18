@@ -2,6 +2,10 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.13.4",
+    "node": "10.15.3"  
+  },
   "homepage": "https://krissmith2910.github.io/Clicky-Game/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -16,9 +20,7 @@
     "react-scripts": "3.3.0",
     "yarn": "^1.21.1"
   },
-  "engines": {
-    "node": "10.15.3"
-  },
+ 
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
