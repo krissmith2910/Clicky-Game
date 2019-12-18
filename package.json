@@ -23,7 +23,7 @@
     "yarn": "^1.21.1"
   },
   "scripts": {
-    "build:local": "react-scripts build",
+    "build": "react-scripts build",
     "dev": "react-scripts start",
     "start": "node server.js",
     "heroku-postbuild": "npm run build"
